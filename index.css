@@ -1,7 +1,15 @@
+.text-platzi {
+    color: #97c93e !important;
+}
+
 #footer {
     background-color: #253a46;
 }
 
 #footer a {
     color: white;
+}
+
+#header img{
+    width: 35px;
 }
