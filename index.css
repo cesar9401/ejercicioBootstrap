@@ -2,6 +2,15 @@
     color: #97c93e !important;
 }
 
+.btn-platzi {
+    background-color: #97c93e;
+    color:#fff;
+}
+
+.btn-platzi:hover {
+    background-color: #82ad36;
+}
+
 #header img {
     width: 80px;
 }
@@ -33,7 +42,7 @@
 }
 
 #footer {
-    background-color: #253a46;
+    background-color: #374248;
 }
 
 #footer a {
