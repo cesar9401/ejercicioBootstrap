@@ -41,6 +41,10 @@
     height: 100%;
 }
 
+.badge-vuejs {
+    background-color: #41b883;
+}
+
 #footer {
     background-color: #374248;
 }
