@@ -43,7 +43,7 @@
             <a class="nav-link" href="#conviertete-en-orador">Convi&eacute;rtete en orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+            <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
           </li>
         </ul>
       </div>
@@ -76,7 +76,7 @@
                 miembros de Platzi y a los oradores de primer nivel que tenemos para ti. Te esperamos!!!
               </p>
               <a href="#" class="btn btn-outline-light">Quiero ser Orador</a>
-              <button type="button" class="btn btn-platzi">Comprar Tickets</button>
+              <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</button>
             </div>
           </div>
         </div>
@@ -166,7 +166,7 @@
         <p>
           Honolulu u Honolulú es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
         </p>
-        <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce m&aacute;s</a>
+        <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light" target="_blank">Conoce m&aacute;s</a>
       </div>
     </div>
   </div>
@@ -249,6 +249,28 @@
     </div>
   </footer>
   <!-- /Footer -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
